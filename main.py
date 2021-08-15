@@ -203,13 +203,13 @@ GROUP_BUTTON = InlineKeyboardMarkup(
 
 DEVELOPER_BUTTON = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🧑‍💻 Developer', url='https://telegram.me/{Config.OWNER_USERNAME}')
+        InlineKeyboardButton('🧑‍💻 Developer', url=f"https://telegram.me/{Config.OWNER_USERNAME}")
         ]]
     )
 
 SOURCE_BUTTON = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🎨 Source Code', url='https://GitHub.Com/BXBotz/Telegram-Bot')
+        InlineKeyboardButton('🎨 Source Code', url="https://GitHub.Com/BXBotz/Telegram-Bot")
         ]]
     )   
 
