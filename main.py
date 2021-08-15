@@ -139,12 +139,6 @@ HELP_TEXT = """**--🛠 HELP--**
 
 ABOUT_TEXT = """🤖 **Bot** : Telegram Bot
 
-👲 **Developer** : [{Config.OWNER_NAME}](https://telegram.me/{Config.OWNER_USERNAME})
-
-📣 **Channel** : @{Config.CHANNEL_USERNAME}
-
-👥 **Group** : @{Config.GROUP_USERNAME}
-
 💻 **Source** : [Click here](https://GitHub.Com/BXBotz/Telegram-Bot)
 
 🎧 **Language** : [Python3](https://python.org/)
