@@ -25,9 +25,6 @@
         },
         "OWNER_USERNAME": {
             "description": "Your Telegram Username"
-        },
-        "OWNER_NAME": {
-             "description": "Your Name"
         }
     },
     "buildpacks": [
