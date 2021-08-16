@@ -15,5 +15,3 @@ class Config(object):
     GROUP_USERNAME = os.environ.get("GROUP_USERNAME")
     # Owner ID
     OWNER_USERNAME =os.environ.get("OWNER_USERNAME")
-    # OWNER NAME
-    OWNER_NAME =os.environ.get("OWNER_NAME")
