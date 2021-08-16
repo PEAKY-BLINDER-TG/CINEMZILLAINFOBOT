@@ -24,7 +24,6 @@ A Simple Telegram Bot
 - `CHANNEL_USERNAME` Channel Username
 - `GROUP_USERNAME` Group Username
 - `OWNER_USERNAME` Owner Telegram Username
-- `OWNER_NAME` Owner Name
 ---
 
 # ⚜️ About Bot
