@@ -72,7 +72,7 @@ async def developer(bot, update):
         reply_markup=reply_markup
     )
 
-@Telegram.on_message(filters.command(["source"]))
+@Telegram.on_message(filters.command(["newupdate"]))
 async def source(bot, update):
     text = SOURCE_TEXT
     reply_markup = SOURCE_BUTTON
@@ -129,7 +129,7 @@ HELP_TEXT = """**--🛠 HELP--**
 ☆ /channel - MY Channel
 ☆ /group - MYGroup
 ☆ /developer - MY Developer
-☆ /source - MY Source Code
+☆ /newupdate - MY Source Code
 
 👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : [ʙx ʙᴏᴛᴢ](https://t.me/BX_Botz) 
 """
