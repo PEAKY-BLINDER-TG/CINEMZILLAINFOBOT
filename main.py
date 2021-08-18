@@ -109,13 +109,10 @@ async def cb_data(bot, update):
 
 # Translation = TEXT
 
-START_TEXT = """Hai {}, 
+START_TEXT = """HAI {}, 
 
-`Iam a simple telegram bot`
-
-**For More Details Press** /help
-
-👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : [ʙx ʙᴏᴛᴢ](https://t.me/BX_Botz)
+AM A BOT OF @CINEMAZILLA GROUP I WOULD STORE ALL DETAILS ABOUT THEIR TEAM. 
+FOR MORE CHECK THE BUTTONS BELOW
 """
 
 HELP_TEXT = """**--🛠 HELP--**
@@ -137,39 +134,33 @@ HELP_TEXT = """**--🛠 HELP--**
 👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : [ʙx ʙᴏᴛᴢ](https://t.me/BX_Botz) 
 """
 
-ABOUT_TEXT = """🤖 **Bot** : Telegram Bot
+ABOUT_TEXT = """
+*NOTHING IS GREAT AND NOTHING IS MORE IMPORTANT ABOUT ME*
 
-💻 **Source** : [Click here](https://GitHub.Com/BXBotz/Telegram-Bot)
-
-🎧 **Language** : [Python3](https://python.org/)
-
-📚 **Library** : [Pyrogram](https://pyrogram.org/)
-
-🧑‍💻 **Server** : [Heroku](https://heroku.com/)
+AM A BOT TO STORE ONLY INFOS AND DATA'S ABOUT @CINEMAZILLA 
 """
 
-CHANNEL_TEXT = """MY Updates Channel 🔻
+CHANNEL_TEXT = """**OUR CHANNELS**
 """
 
-GROUP_TEXT = """**👥 MY Support Group**
+GROUP_TEXT = """**OUR GROUP**
 """
 
-DEVELOPER_TEXT = """**🧑‍💻 MY Developer**
+DEVELOPER_TEXT = """**WANT TO ADD ANYTHING**
 """
 
-SOURCE_TEXT = """**🎁 MY Source Code**
+SOURCE_TEXT = """**FOR NEW MOVIES UPDATE CHECK **
 """
 
 # Translation = BUTTONS
 
 START_BUTTON = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🤖 Update Channel', url=f"https://telegram.me/{Config.CHANNEL_USERNAME}"),
-        InlineKeyboardButton('👥 Support Group', url=f"https://telegram.me/{Config.GROUP_USERNAME}")
-    ],
+        InlineKeyboardButton('🛠️Help', callback_data="help")
+        ],
     [
-        InlineKeyboardButton('🧑‍💻 Developer', url=f"https://telegram.me/{Config.OWNER_USERNAME}"),
-        InlineKeyboardButton('🎨 Source Code', url="https://GitHub.Com/BXBotz/Telegram-Bot")     
+        InlineKeyboardButton('🔰About', callback_data="about"),
+        InlineKeyboardButton('Close 🔒', callback_data="close")     
         ]]
     )
 
